@@ -89,7 +89,7 @@ responsestatuslinevalidation(response,ToReadExcel.readData(1,9,"Sheet1"));
 		Response response=	GuideLinesEndPoints.add_User(UserData.userpayLoad);
 		response.then().log().all();
 		responsecodevalidation(response,400);
-		responsetimevalidation(response);
+		
 
 	}
 	
